@@ -1,0 +1,27 @@
+[
+  {
+    "mounts": {
+      "slimy-saddle": {
+        "name": "slimy saddle",
+        "type": "mount summon",
+        "use-time": 20,
+        "rarity": "yellow",
+        "tooltip": "summons a rideable Slime mount",
+        "sell-value": {
+          "platinum": 0,
+          "gold": 5,
+          "silver": 0,
+          "copper": 0
+        },
+        "research": "1 required",
+        "buff": {
+          "name": "Slime Mount",
+          "tooltip": "BOOOIIINNNG!"
+        },
+        "internal-item-ID": 2430,
+        "internal-Mount-ID": 3,
+        "internal-Buff-ID": 130
+      }
+    }
+  }
+]

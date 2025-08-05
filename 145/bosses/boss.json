@@ -1,0 +1,38 @@
+[
+  {
+    "BossName": "",
+    "stage": "pre hardmode",
+    "classicStats": {
+      "max-life": 2000,
+      "defense": 10,
+      "damage": 40,
+      "knockback-ressist": "100%",
+      "Environment": ["forest", "slime rain"],
+      "type": ["slime", "boss"],
+      "immunity": ["shimmering", "confused", "poisoned"],
+      "drops": {
+        "coins": {
+          "platinum": 0,
+          "gold": 1,
+          "silver": 0,
+          "copper": 0
+        },
+        "items": {
+          "slimy-saddle": {
+            "rate": 25
+          }
+        }
+      }
+    },
+    "expertStats": {
+      "max-life": 2800,
+      "defense": 10,
+      "damage": 64,
+      "knockback-ressist": "100%",
+      "ai-type": "king slime AI",
+      "Environment": ["forest", "slime rain"],
+      "type": ["slime", "boss"],
+      "immunity": ["shimmering", "confused", "poisoned"]
+    }
+  }
+]
