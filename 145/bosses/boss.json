@@ -1,6 +1,6 @@
 [
   {
-    "BossName": "",
+    "BossName": "King Slime",
     "stage": "pre hardmode",
     "classicStats": {
       "max-life": 2000,
@@ -19,7 +19,56 @@
         },
         "items": {
           "slimy-saddle": {
-            "rate": 25
+            "name": "Slimy Saddle",
+            "rate": 25,
+            "in-API-ID": 0
+          },
+          "1gar": {
+            "desc": "one of the items here will drop",
+            "Ninja-Hood": {
+              "name": "Ninja Hood",
+              "rate": 33.33,
+              "in-API-ID": 1
+            },
+            "Ninja-Shirt": {
+              "name": "Ninja Shirt",
+              "rate": 33.33,
+              "in-API-ID": 1
+            },
+            "Ninja-Pants": {
+              "name": "Ninja Pants",
+              "rate": 33.33,
+              "in-API-ID": 1
+            }
+          },
+          "2gar": {
+            "desc": "two of the items here will drop",
+            "Slime-hook": {
+              "name": "Slime Hook",
+              "rate": 33.33,
+              "in-API-ID": 1
+            },
+            "Slime-gun": {
+              "name": "Slime Gun",
+              "rate": 66.67,
+              "in-API-ID": 1
+            },
+            "lesser-healing-potion": {
+              "name": "lesser healing potion",
+              "rate": 100,
+              "amount": "5-15",
+              "in-API-ID": 1
+            },
+            "King-Slime-Mask": {
+              "name": "King Slime Mask",
+              "rate": 14.29,
+              "in-API-ID": 1
+            },
+            "King-Slime-Trophy": {
+              "name": "King Slime Trophy",
+              "rate": 10,
+              "in-API-ID": 1
+            }
           }
         }
       }
@@ -29,10 +78,342 @@
       "defense": 10,
       "damage": 64,
       "knockback-ressist": "100%",
-      "ai-type": "king slime AI",
+      "ai-type": "King Slime AI",
       "Environment": ["forest", "slime rain"],
       "type": ["slime", "boss"],
-      "immunity": ["shimmering", "confused", "poisoned"]
+      "immunity": ["shimmering", "confused", "poisoned"],
+      "drops": {
+        "coins": {
+          "gold": 2,
+          "silver": 50,
+          "copper": 0
+        },
+        "items": {
+          "lesser-healing-potion": {
+            "name": "Lesser Healing Potion",
+            "rate": 100,
+            "amount": "5-15"
+          },
+          "King-Slime-Trophy": {
+            "name": "King Slime Trophy",
+            "rate": 10
+          },
+          "Treasure-Bag": {
+            "name": "Treasure Bag (King Slime)",
+            "rate": 100
+          },
+          "Royal-Gel": {
+            "name": "Royal Gel",
+            "rate": 100
+          },
+          "King-Slime-Mask": {
+            "name": "King Slime Mask",
+            "rate": 14.29
+          },
+          "two-from-group": {
+            "desc": "two of the following will drop",
+            "Ninja-Hood": {
+              "name": "Ninja Hood",
+              "rate": 67
+            },
+            "Ninja-Shirt": {
+              "name": "Ninja Shirt",
+              "rate": 67
+            },
+            "Ninja-Pants": {
+              "name": "Ninja Pants",
+              "rate": 67
+            },
+            "Slime-Gun": {
+              "name": "Slime Gun",
+              "rate": 50
+            },
+            "Slime-Hook": {
+              "name": "Slime Hook",
+              "rate": 50
+            },
+            "Solidifier": {
+              "name": "Solidifier",
+              "rate": 100
+            },
+            "Gold-Coin": {
+              "name": "Gold Coin",
+              "rate": 100,
+              "amount": 1
+            }
+          }
+        }
+      }
+    },
+    "masterStats": {
+      "max-life": 3570,
+      "defense": 10,
+      "damage": 96,
+      "knockback-ressist": "100%",
+      "ai-type": "King Slime AI",
+      "Environment": ["forest", "slime rain"],
+      "type": ["slime", "boss"],
+      "immunity": ["shimmering", "confused", "poisoned"],
+      "drops": {
+        "coins": {
+          "gold": 2,
+          "silver": 50,
+          "copper": 0
+        },
+        "items": {
+          "lesser-healing-potion": {
+            "name": "Lesser Healing Potion",
+            "rate": 100,
+            "amount": "5-15"
+          },
+          "King-Slime-Trophy": {
+            "name": "King Slime Trophy",
+            "rate": 10
+          },
+          "Treasure-Bag": {
+            "name": "Treasure Bag (King Slime)",
+            "rate": 100
+          },
+          "Royal-Gel": {
+            "name": "Royal Gel",
+            "rate": 100
+          },
+          "King-Slime-Mask": {
+            "name": "King Slime Mask",
+            "rate": 14.29
+          },
+          "two-from-group": {
+            "desc": "two of the following will drop",
+            "Ninja-Hood": {
+              "name": "Ninja Hood",
+              "rate": 67
+            },
+            "Ninja-Shirt": {
+              "name": "Ninja Shirt",
+              "rate": 67
+            },
+            "Ninja-Pants": {
+              "name": "Ninja Pants",
+              "rate": 67
+            },
+            "Slime-Gun": {
+              "name": "Slime Gun",
+              "rate": 50
+            },
+            "Slime-Hook": {
+              "name": "Slime Hook",
+              "rate": 50
+            },
+            "Solidifier": {
+              "name": "Solidifier",
+              "rate": 100
+            },
+            "Gold-Coin": {
+              "name": "Gold Coin",
+              "rate": 100,
+              "amount": 1
+            }
+          }
+        }
+      }
+    },
+    "sounds": {
+      "Hurt": "",
+      "Killed": ""
+    },
+    "internal-npc-id": 50,
+    "quote": "The lord of all things slimy."
+  },
+  {
+    "BossName": "Eye of Cthulhu",
+    "stage": "pre hardmode",
+    "classicStats": {
+      "max-life": 2800,
+      "defense": 12,
+      "damage": [15, 23],
+      "knockback-ressist": "100%",
+      "Environment": ["night", "surface"],
+      "type": ["boss"],
+      "immunity": [],
+      "drops": {
+        "coins": {
+          "gold": 3,
+          "silver": 0,
+          "copper": 0
+        },
+        "items": {
+          "lesser-healing-potion": {
+            "name": "Lesser Healing Potion",
+            "rate": 100,
+            "amount": "5-15"
+          },
+          "Eye-of-Cthulhu-Trophy": {
+            "name": "Eye of Cthulhu Trophy",
+            "rate": 10
+          },
+          "Eye-of-Cthulhu-Mask": {
+            "name": "Eye of Cthulhu Mask",
+            "rate": 14.29
+          },
+          "biome-ore": {
+            "name": "Demonite or Crimtane Ore",
+            "rate": 100,
+            "amount": "30-90"
+          },
+          "corruptarrows": {
+            "name": "Unholy Arrows",
+            "rate": 100,
+            "amount": "20-50",
+            "biome": "Corruption",
+            "optional": true
+          },
+          "crimsonseeds": {
+            "name": "Crimson Seeds",
+            "rate": 100,
+            "amount": "1-3",
+            "biome": "Crimson",
+            "optional": true
+          }
+        }
+      }
+    },
+    "expertStats": {
+      "max-life": 3640,
+      "defense": 12,
+      "damage": [15, 23],
+      "knockback-ressist": "100%",
+      "ai-type": "Eye of Cthulhu AI",
+      "Environment": ["night", "surface"],
+      "type": ["boss"],
+      "immunity": [],
+      "drops": {
+        "coins": {
+          "gold": 3,
+          "silver": 0,
+          "copper": 0
+        },
+        "items": {
+          "lesser-healing-potion": {
+            "name": "Lesser Healing Potion",
+            "rate": 100,
+            "amount": "5-15"
+          },
+          "Eye-of-Cthulhu-Trophy": {
+            "name": "Eye of Cthulhu Trophy",
+            "rate": 10
+          },
+          "Treasure-Bag": {
+            "name": "Treasure Bag (Eye of Cthulhu)",
+            "rate": 100
+          },
+          "Shield-of-Cthulhu": {
+            "name": "Shield of Cthulhu",
+            "rate": 100
+          },
+          "Eye-of-Cthulhu-Mask": {
+            "name": "Eye of Cthulhu Mask",
+            "rate": 14.29
+          },
+          "Binoculars": {
+            "name": "Binoculars",
+            "rate": 3.3
+          },
+          "biome-ore": {
+            "name": "Demonite or Crimtane Ore",
+            "rate": 100,
+            "amount": "30-90"
+          },
+          "corruptarrows": {
+            "name": "Unholy Arrows",
+            "rate": 100,
+            "amount": "20-50",
+            "biome": "Corruption",
+            "optional": true
+          },
+          "crimsonseeds": {
+            "name": "Crimson Seeds",
+            "rate": 100,
+            "amount": "1-3",
+            "biome": "Crimson",
+            "optional": true
+          }
+        }
+      }
+    },
+    "masterStats": {
+      "max-life": 4641,
+      "defense": 12,
+      "damage": [15, 23],
+      "knockback-ressist": "100%",
+      "ai-type": "Eye of Cthulhu AI",
+      "Environment": ["night", "surface"],
+      "type": ["boss"],
+      "immunity": [],
+      "drops": {
+        "coins": {
+          "gold": 3,
+          "silver": 0,
+          "copper": 0
+        },
+        "items": {
+          "lesser-healing-potion": {
+            "name": "Lesser Healing Potion",
+            "rate": 100,
+            "amount": "5-15"
+          },
+          "Eye-of-Cthulhu-Trophy": {
+            "name": "Eye of Cthulhu Trophy",
+            "rate": 10
+          },
+          "Eye-of-Cthulhu-Relic": {
+            "name": "Eye of Cthulhu Relic",
+            "rate": 100
+          },
+          "Suspicious-Grinning-Eye": {
+            "name": "Suspicious Grinning Eye",
+            "rate": 25
+          },
+          "Treasure-Bag": {
+            "name": "Treasure Bag (Eye of Cthulhu)",
+            "rate": 100
+          },
+          "Shield-of-Cthulhu": {
+            "name": "Shield of Cthulhu",
+            "rate": 100
+          },
+          "0x33-Aviators": {
+            "name": "0x33's Aviators",
+            "rate": 100
+          },
+          "Eye-of-Cthulhu-Mask": {
+            "name": "Eye of Cthulhu Mask",
+            "rate": 14.29
+          },
+          "Binoculars": {
+            "name": "Binoculars",
+            "rate": 3.3
+          },
+          "biome-ore": {
+            "name": "Demonite or Crimtane Ore",
+            "rate": 100,
+            "amount": "30-90"
+          },
+          "corruptarrows": {
+            "name": "Unholy Arrows",
+            "rate": 100,
+            "amount": "20-50",
+            "biome": "Corruption",
+            "optional": true
+          },
+          "crimsonseeds": {
+            "name": "Crimson Seeds",
+            "rate": 100,
+            "amount": "1-3",
+            "biome": "Crimson",
+            "optional": true
+          }
+        }
+      }
     }
   }
 ]
