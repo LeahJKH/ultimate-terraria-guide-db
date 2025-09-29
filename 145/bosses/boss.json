@@ -2,14 +2,14 @@
   {
     "BossName": "King Slime",
     "stage": "pre hardmode",
+    "ai-type": "King Slime AI",
+    "Environment": ["forest", "slime rain"],
+    "immunity": ["shimmering", "confused", "poisoned"],
+    "knockback-resist": "100%",
     "classicStats": {
       "max-life": 2000,
       "defense": 10,
       "damage": 40,
-      "knockback-resist": "100%",
-      "Environment": ["forest", "slime rain"],
-      "type": ["slime", "boss"],
-      "immunity": ["shimmering", "confused", "poisoned"],
       "drops": {
         "coins": {
           "platinum": 0,
@@ -77,11 +77,6 @@
       "max-life": 2800,
       "defense": 10,
       "damage": 64,
-      "knockback-resist": "100%",
-      "ai-type": "King Slime AI",
-      "Environment": ["forest", "slime rain"],
-      "type": ["slime", "boss"],
-      "immunity": ["shimmering", "confused", "poisoned"],
       "drops": {
         "coins": {
           "gold": 2,
@@ -149,11 +144,6 @@
       "max-life": 3570,
       "defense": 10,
       "damage": 96,
-      "knockback-resist": "100%",
-      "ai-type": "King Slime AI",
-      "Environment": ["forest", "slime rain"],
-      "type": ["slime", "boss"],
-      "immunity": ["shimmering", "confused", "poisoned"],
       "drops": {
         "coins": {
           "gold": 2,
@@ -227,14 +217,14 @@
   {
     "BossName": "Eye of Cthulhu",
     "stage": "pre hardmode",
+    "knockback-resist": "100%",
+    "Environment": ["night", "surface"],
+    "type": ["boss"],
+    "immunity": [],
     "classicStats": {
       "max-life": 2800,
       "defense": 12,
-      "damage": [15, 23],
-      "knockback-resist": "100%",
-      "Environment": ["night", "surface"],
-      "type": ["boss"],
-      "immunity": [],
+      "damage": [15, 23], 
       "drops": {
         "coins": {
           "gold": 3,
@@ -281,11 +271,6 @@
       "max-life": 3640,
       "defense": 12,
       "damage": [15, 23],
-      "knockback-resist": "100%",
-      "ai-type": "Eye of Cthulhu AI",
-      "Environment": ["night", "surface"],
-      "type": ["boss"],
-      "immunity": [],
       "drops": {
         "coins": {
           "gold": 3,
@@ -344,11 +329,6 @@
       "max-life": 4641,
       "defense": 12,
       "damage": [15, 23],
-      "knockback-resist": "100%",
-      "ai-type": "Eye of Cthulhu AI",
-      "Environment": ["night", "surface"],
-      "type": ["boss"],
-      "immunity": [],
       "drops": {
         "coins": {
           "gold": 3,
